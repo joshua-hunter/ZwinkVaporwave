@@ -1,0 +1,56 @@
+/* This is stylesheet.css an external style sheet */
+
+
+
+/* Style the whole flipping page */
+  body {
+  background-color: lightblue;
+  color: #2d3b71;
+  margin: 0;
+  }
+/* Wrapper div controls width of entire layout */
+    #wrapper {
+    width:90%;
+    min-width: 580px;
+    max-width: 1400px;
+    background-color:rgb(255, 255, 255);
+    border:solid 7px pink;
+    border-radius: 6px;
+    margin: 10px auto;
+  }
+
+/* Page header at the top of every page */
+  header{
+  background-color: #2d7155;
+  color: rgb(255, 255, 255);
+  height: 60px;
+  line-height: 60px;
+  }
+/* Navigational Bar */
+  nav{
+  width: 250px;
+  float: right;
+  }
+/* Navigation bar links (<a> tags yo */
+  nav a{
+  text-decoration: none;
+  color: white;
+  font-size: 115%;
+  }
+/* Level1 and Level 2 headings */
+/* Main content below the header and navbar */
+  main{
+    padding: 18px;
+  }
+  h1{
+  text-align:center;  
+  margin:0;
+  }
+  h2{
+  text-align:center;  
+  color: #00641c;
+  }
+  footer{
+    font-family: ;
+    text-align:center;
+  }
